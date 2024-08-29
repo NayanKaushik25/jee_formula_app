@@ -311,6 +311,8 @@ flutter:
     - assets/cap/cap17.png
     - assets/cap/cap18.png
     - assets/cap/cap19.png
+    - assets/cap/cap20.png
+    - assets/cap/cap21.png
 
 flutter_native_splash:
   android: true

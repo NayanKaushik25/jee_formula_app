@@ -125,7 +125,27 @@ class _CapState extends State<Cap> {
                     ),
                   ),
                   SizedBox(height: 50),
-
+                  Image(
+                    image: AssetImage(
+                      'assets/cap/cap18.png',
+                    ),
+                  ),
+                  Image(
+                    image: AssetImage(
+                      'assets/cap/cap19.png',
+                    ),
+                  ),
+                  SizedBox(height: 50),
+                  Image(
+                    image: AssetImage(
+                      'assets/cap/cap20.png',
+                    ),
+                  ),
+                  Image(
+                    image: AssetImage(
+                      'assets/cap/cap21.png',
+                    ),
+                  ),
                 ],
               ),
             ),
