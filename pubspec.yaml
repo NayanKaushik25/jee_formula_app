@@ -1,0 +1,315 @@
+name: jee_formula_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+  flutter_native_splash: ^2.4.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/file.png
+    - assets/vectors/vectors1.png
+    - assets/vectors/vectors2.png
+    - assets/vectors/vectors3.png
+    - assets/vectors/vectors4.png
+    - assets/vectors/vectors5.png
+    - assets/vectors/vectors6.png
+    - assets/vectors/vectors7.png
+    - assets/vectors/vectors8.png
+    - assets/oned/oned1.png
+    - assets/oned/oned2.png
+    - assets/oned/oned3.png
+    - assets/oned/oned4.png
+    - assets/oned/oned5.png
+    - assets/oned/oned6.png
+    - assets/oned/oned7.png
+    - assets/oned/oned8.png
+    - assets/oned/oned9.png
+    - assets/oned/oned10.png
+    - assets/twod/twod1.png
+    - assets/twod/twod2.png
+    - assets/twod/twod2.png
+    - assets/twod/twod3.png
+    - assets/twod/twod4.png
+    - assets/twod/twod5.png
+    - assets/twod/twod6.png
+    - assets/twod/twod7.png
+    - assets/twod/twod8.png
+    - assets/nlm/nlm1.png
+    - assets/nlm/nlm2.png
+    - assets/nlm/nlm3.png
+    - assets/nlm/nlm4.png
+    - assets/nlm/nlm5.png
+    - assets/nlm/nlm6.png
+    - assets/nlm/nlm7.png
+    - assets/nlm/nlm8.png
+    - assets/nlm/nlm9.png
+    - assets/nlm/nlm10.png
+    - assets/nlm/nlm11.png
+    - assets/nlm/nlm12.png
+    - assets/nlm/nlm13.png
+    - assets/nlm/nlm14.png
+    - assets/nlm/nlm15.png
+    - assets/nlm/nlm16.png
+    - assets/nlm/nlm17.png
+    - assets/nlm/nlm18.png
+    - assets/wep/wep1.png
+    - assets/wep/wep2.png
+    - assets/wep/wep3.png
+    - assets/wep/wep4.png
+    - assets/wep/wep5.png
+    - assets/wep/wep6.png
+    - assets/wep/wep7.png
+    - assets/wep/wep8.png
+    - assets/wep/wep9.png
+    - assets/wep/wep10.png
+    - assets/wep/wep11.png
+    - assets/wep/wep12.png
+    - assets/wep/wep13.png
+    - assets/wep/wep14.png
+    - assets/solid/solids1.png
+    - assets/solid/solids2.png
+    - assets/solid/solids3.png
+    - assets/solid/solids4.png
+    - assets/solid/solids5.png
+    - assets/solid/solids6.png
+    - assets/solid/solids7.png
+    - assets/solid/solids8.png
+    - assets/solid/solids9.png
+    - assets/solid/solids10.png
+    - assets/atomic/atomic1.png
+    - assets/atomic/atomic2.png
+    - assets/atomic/atomic3.png
+    - assets/atomic/atomic4.png
+    - assets/atomic/atomic5.png
+    - assets/atomic/atomic6.png
+    - assets/atomic/atomic7.png
+    - assets/atomic/atomic8.png
+    - assets/atomic/atomic9.png
+    - assets/atomic/atomic10.png
+    - assets/atomic/atomic11.png
+    - assets/atomic/atomic12.png
+    - assets/atomic/atomic13.png
+    - assets/atomic/atomic14.png
+    - assets/atomic/atomic15.png
+    - assets/atomic/atomic16.png
+    - assets/atomic/atomic17.png
+    - assets/atomic/atomic18.png
+    - assets/dual/dual1.png
+    - assets/dual/dual2.png
+    - assets/dual/dual3.png
+    - assets/dual/dual4.png
+    - assets/dual/dual5.png
+    - assets/dual/dual6.png
+    - assets/ktg/ktg1.png
+    - assets/ktg/ktg2.png
+    - assets/ktg/ktg3.png
+    - assets/ktg/ktg4.png
+    - assets/ktg/ktg5.png
+    - assets/ktg/ktg6.png
+    - assets/ktg/ktg7.png
+    - assets/ktg/ktg8.png
+    - assets/ktg/ktg9.png
+    - assets/ktg/ktg10.png
+    - assets/ktg/ktg11.png
+    - assets/emi/emi1.png
+    - assets/emi/emi2.png
+    - assets/emi/emi3.png
+    - assets/emi/emi4.png
+    - assets/emi/emi5.png
+    - assets/emi/emi6.png
+    - assets/emi/emi7.png
+    - assets/emi/emi8.png
+    - assets/emi/emi9.png
+    - assets/emi/emi10.png
+    - assets/emi/emi11.png
+    - assets/emi/emi12.png
+    - assets/emi/emi13.png
+    - assets/emi/emi14.png
+    - assets/thermal/thermal1.png
+    - assets/thermal/thermal2.png
+    - assets/thermal/thermal3.png
+    - assets/thermal/thermal4.png
+    - assets/thermal/thermal5.png
+    - assets/thermal/thermal6.png
+    - assets/thermal/thermal7.png
+    - assets/thermal/thermal8.png
+    - assets/thermal/thermal9.png
+    - assets/thermal/thermal10.png
+    - assets/thermal/thermal11.png
+    - assets/thermal/thermal12.png
+    - assets/thermal/thermal13.png
+    - assets/thermal/thermal14.png
+    - assets/thermal/thermal15.png
+    - assets/thermal/thermal16.png
+    - assets/thermal/thermal17.png
+    - assets/thermal/thermal18.png
+    - assets/thermal/thermal19.png
+    - assets/thermal/thermal20.png
+    - assets/thermal/thermal21.png
+    - assets/thermal/thermal22.png
+    - assets/mec/mec1.png
+    - assets/mec/mec2.png
+    - assets/mec/mec3.png
+    - assets/mec/mec4.png
+    - assets/mec/mec5.png
+    - assets/mec/mec6.png
+    - assets/mec/mec7.png
+    - assets/mec/mec8.png
+    - assets/mec/mec9.png
+    - assets/mec/mec10.png
+    - assets/mec/mec11.png
+    - assets/mec/mec12.png
+    - assets/mec/mec13.png
+    - assets/mec/mec14.png
+    - assets/mec/mec15.png
+    - assets/mec/mec16.png
+    - assets/mec/mec17.png
+    - assets/mec/mec18.png
+    - assets/mec/mec19.png
+    - assets/mec/mec20.png
+    - assets/mec/mec21.png
+    - assets/waveoptics/waveoptics1.png
+    - assets/waveoptics/waveoptics2.png
+    - assets/waveoptics/waveoptics3.png
+    - assets/waveoptics/waveoptics4.png
+    - assets/waveoptics/waveoptics5.png
+    - assets/waveoptics/waveoptics6.png
+    - assets/waveoptics/waveoptics7.png
+    - assets/waveoptics/waveoptics8.png
+    - assets/waveoptics/waveoptics9.png
+    - assets/waveoptics/waveoptics10.png
+    - assets/waveoptics/waveoptics11.png
+    - assets/waveoptics/waveoptics12.png
+    - assets/waveoptics/waveoptics13.png
+    - assets/waveoptics/waveoptics14.png
+    - assets/waveoptics/waveoptics15.png
+    - assets/waveoptics/waveoptics16.png
+    - assets/waveoptics/waveoptics17.png
+    - assets/waveoptics/waveoptics18.png
+    - assets/waveoptics/waveoptics19.png
+    - assets/waveoptics/waveoptics20.png
+    - assets/waveoptics/waveoptics21.png
+    - assets/waveoptics/waveoptics22.png
+    - assets/waveoptics/waveoptics23.png
+    - assets/waveoptics/waveoptics24.png
+    - assets/waveoptics/waveoptics25.png
+    - assets/waveoptics/waveoptics26.png
+    - assets/waveoptics/waveoptics27.png
+    - assets/waveoptics/waveoptics28.png
+    - assets/waveoptics/waveoptics29.png
+    - assets/waveoptics/waveoptics30.png
+    - assets/thermo/thermo1.png
+    - assets/thermo/thermo2.png
+    - assets/thermo/thermo3.png
+    - assets/thermo/thermo4.png
+    - assets/thermo/thermo5.png
+    - assets/thermo/thermo6.png
+    - assets/thermo/thermo7.png
+    - assets/thermo/thermo8.png
+    - assets/thermo/thermo9.png
+    - assets/thermo/thermo10.png
+    - assets/thermo/thermo11.png
+    - assets/thermo/thermo12.png
+    - assets/thermo/thermo13.png
+    - assets/thermo/thermo14.png
+    - assets/thermo/thermo15.png
+    - assets/thermo/thermo16.png
+    - assets/thermo/thermo17.png
+    - assets/thermo/thermo18.png
+    - assets/thermo/thermo19.png
+    - assets/thermo/thermo20.png
+    - assets/shm/shm1.png
+    - assets/shm/shm2.png
+    - assets/shm/shm3.png
+    - assets/shm/shm4.png
+    - assets/shm/shm5.png
+    - assets/shm/shm6.png
+    - assets/shm/shm7.png
+    - assets/shm/shm8.png
+    - assets/shm/shm9.png
+    - assets/shm/shm10.png
+    - assets/shm/shm11.png
+    - assets/shm/shm12.png
+    - assets/shm/shm13.png
+    - assets/shm/shm14.png
+    - assets/shm/shm15.png
+    - assets/shm/shm16.png
+    - assets/shm/shm17.png
+    - assets/shm/shm18.png
+    - assets/shm/shm19.png
+    - assets/shm/shm20.png
+    - assets/cap/cap1.png
+    - assets/cap/cap2.png
+    - assets/cap/cap3.png
+    - assets/cap/cap4.png
+    - assets/cap/cap5.png
+    - assets/cap/cap6.png
+    - assets/cap/cap7.png
+    - assets/cap/cap8.png
+    - assets/cap/cap9.png
+    - assets/cap/cap10.png
+    - assets/cap/cap11.png
+    - assets/cap/cap12.png
+    - assets/cap/cap13.png
+    - assets/cap/cap14.png
+    - assets/cap/cap15.png
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#520b0f"
+  image: "assets/file.png"
