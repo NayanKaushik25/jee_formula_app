@@ -20,6 +20,7 @@ import 'package:jee_formula_app/phy_pages/waveoptics.dart';
 import 'package:jee_formula_app/phy_pages/thermo.dart';
 import 'package:jee_formula_app/phy_pages/shm.dart';
 import 'package:jee_formula_app/phy_pages/capacitance.dart';
+import 'package:jee_formula_app/chem_pages/solutions.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -45,6 +46,7 @@ void main() {
       '/thermo': (context) => Thermo(),
       '/shm': (context) => SHM(),
       '/cap':(context) => Cap(),
+      '/sol': (context) => SOL(),
     },
   ));
 }

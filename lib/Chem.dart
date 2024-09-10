@@ -153,7 +153,7 @@ class _ChemState extends State<Chem> {
                     maximumSize: Size(200, 75),
                   ),
                   onPressed: () {
-                    Navigator.pushNamed(context, '/phy');
+                    Navigator.pushNamed(context, '/sol');
                   },
                 ),
                 SizedBox(height: 30),
